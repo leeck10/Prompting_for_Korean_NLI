@@ -1,0 +1,149 @@
+premise: 저희는 항상 대중교통을 이용하였습니다.
+hypothesis: 대중교통을 이용하지 않았습니다.
+knowledge: 항상 대중교통을 이용했다고 명시되어 있으므로 가설은 거짓이다.
+answer: contradiction
+
+premise: 저희가 묵은 이 숙소의 최대 장점은 위치였어요.
+hypothesis: 관광지와 가까운 위치였어요.
+knowledge: 위치가 관광지와 가깝다는 정보는 주어지지 않았다.
+answer: neutral
+
+premise: 저질 스토리 라인은 도저히 참을 수가 없어.
+hypothesis: 저질 스토리라인이 제일 화가 나.
+knowledge: 저질한 스토리라인이 참을 수 없다는 것은 해당 스토리라인이 화를 유발한다는 것을 의미한다.
+answer: entailment
+{shot}
+premise: 저제작비로도 얼마든지 훌륭한 영화가 나올수 있다는 걸 잘 보여준 영화.
+hypothesis: 역대 가장 낮은 비용으로 제작된 영화.
+knowledge: 저작비로도 훌륭한 영화가 나올 수 있다는 내용이 있지만, 그것이 역대 가장 낮은 비용으로 제작된 영화임을 단정할 수는 없다.
+answer: neutral
+
+premise: 저의 여행에서 매우 만족도가 높았습니다.
+hypothesis: 여행에서 제 만족도는 낮았습니다.
+knowledge: '매우 만족도가 높았다'는 긍정적인 평가이기 때문에, '제 만족도는 낮았다'는 부정적인 평가와 모순된다.
+answer: contradiction
+
+premise: 저의 여행에서 매우 만족도가 높았습니다.
+hypothesis: 저는 여행을 한 적이 있습니다.
+knowledge: 전제 문장으로부터 여행을 했음을 추론할 수 있다.
+answer: entailment
+{shot}
+premise: 저렴한 가격에 나쁘지 않은 위치가 장점입니다.
+hypothesis: 청결도는 단점입니다.
+knowledge: 청결도에 대한 정보가 언급되지 않았으므로 청결도와 관련된 어떠한 판단도 내릴 수 없다.
+answer: neutral
+
+premise: 저도 사고를 참 많이치던 학생이었습니다.
+hypothesis: 저는 사고를 친 적이 없습니다.
+knowledge: 학생이 과거에 사고를 많이 치는 경험을 한다는 것을 언급하고 있으므로, 뒷 문장과는 반대되는 내용이다.
+answer: contradiction
+
+premise: 저는 이 숙소를 예약한 것에 대해 만족합니다.
+hypothesis: 저는 이 숙소를 예약한것에 불만없습니다.
+knowledge: 만족과 불만이 서로 반대되는 의미이므로, 만족한다는 것은 불만이 없다는 것으로 받아들일 수 있다.
+answer: entailment
+{shot}
+premise: 저는 결국 렌트카 문짝을 긁어먹었답니다.
+hypothesis: 렌트카 문짝을 결국 수리했습니다.
+knowledge: 렌트카를 언급하고 있지만, 수리 여부와 관련된 정보는 없다.
+answer: neutral
+
+premise: 이어 체험전시실 전체와 라바파크, 사계절 썰매장 등을 센터장의 안내로 세세히 둘러보았다.
+hypothesis: 센터장이 안내해주었다.
+knowledge: 센터장이 안내를 해준 것이 명시되어 있다.
+answer: entailment
+
+premise: 이어 위촉장 수여와 학생기자단 운영계획, 저작권, 사진촬영 기법 등의 실무교육이 진행됐다.
+hypothesis: 위촉장 수여만 진행되었다.
+knowledge: 여러 가지 실무교육이 진행됐다는 정보가 제공되었다.
+answer: contradiction
+{shot}
+premise: 누리 빌게 제일란의 최고의 감동 영화 터키의 이국적 정서.
+hypothesis: 터키의 이국적 정서를 보여주는 영화.
+knowledge: 누리 빌게 제일란은 감동 영화이며, 그 중에서도 터키의 이국적인 정서를 다룬다는 정보가 있다.
+answer: entailment
+
+premise: 높이 솟은 기둥 위에 보석들로 치장한 행복한 왕자 동상이 있고 사람들은 그 동상을 찬미한다.
+hypothesis: 행복한 왕자 동상의 치장에 사용된 보석은 다이아몬드, 루비, 사파이어이다.
+knowledge: 보석의 종류에 대한 정보가 주어지지 않았고, 따라서 보석의 종류는 모르는 정보이다.
+answer: neutral
+
+premise: 손흥민은 순간적인 스피드와 돌파력으로 정상급 공격수가 됐다.
+hypothesis: 손흥민은 정상급 공격수가 되는 중이다.
+knowledge: \"됐다\"는 과거형으로, 이미 정상급 공격수가 되었다는 의미이다.
+answer: contradiction
+{shot}
+premise: 솔직히 8점 정도가 적당하다고 봅니다.
+hypothesis: 배우 덕분에 8점이라고 봅니다.
+knowledge: 누구나 가능한 주관적인 평가를 전달하고 있으며, 배우와 관련된 정보는 없다.
+answer: neutral
+
+premise: 솔직히 8점 정도가 적당하다고 봅니다.
+hypothesis: 적당한 점수는 8점이라 봅니다.
+knowledge: 적당한 점수가 8점이라고 생각한다는 의미로 해석할 수 있다.
+answer: entailment
+
+premise: 솔직히 말해서 겨울왕국 이상으로 재미있다.
+hypothesis: 솔직히 말해서 겨울왕국 보단 재미 없었다.
+knowledge: 두 평가는 반대의 의미를 지니고 있다.
+answer: contradiction
+{shot}
+premise: 영화의 장면 장면이 머리속에서 떠나질 않는다.
+hypothesis: 금방 잊혀지는 영화 장면들이다.
+knowledge: 전제 문장의 의미와 반대되는 내용이다.
+answer: contradiction
+
+premise: 영화의 장면 장면이 머리속에서 떠나질 않는다.
+hypothesis: 영화의 장면 장면이 머리속에서 맴돈다.
+knowledge: 떠나지 않는다와 맴돈다는 비슷한 의미를 지니므로 동일한 의미를 담고 있다.
+answer: entailment
+
+premise: 예고편에는 죽은 수호 생일을 함께 보내는 가족과 친구들의 모습이 나왔다.
+hypothesis: 수호의 가족 중에는 누나가 있다.
+knowledge: 수호의 가족 구성원에 대한 정보를 알 수 없다.
+answer: neutral
+{shot}
+premise: 예민하신 분들은 자주 깨실 수 있어요.
+hypothesis: 공사 소리에 자주 깨실 수 있어요.
+knowledge: 원인에 대한 정보가 제공되지 않으므로 알 수 없다.
+answer: neutral
+
+premise: 예배당의 종소리가 아직도 기억에 생생합니다.
+hypothesis: 예배당의 종소리을 잊었습니다.
+knowledge: 종소리가 기억에 남아있다는 정보가 주어졌기 때문에 서로 모순되는 주장이다.
+answer: contradiction
+
+premise: 예성과 견자단의 결투는 길이길이 기억되리.
+hypothesis: 예성과 견자단은 결투는 아주 오래도록 기억되리.
+knowledge: \"길이길이\"란 표현은 \"아주 오랫동안\"이라는 의미이다.
+answer: entailment
+{shot}
+premise: 21일 발생한 용인 물류센터 화재도 언급했다.
+hypothesis: 22일에는 평택 물류센터에서 화재가 발생했다.
+knowledge: 전제에는 22일에 일어난 일에 대한 정보는 없다.
+answer: neutral
+
+premise: 2명이서 가신다면 사용하기 좋을거에요.
+hypothesis: 2명이서 사용하기에 나쁘지 않아요.
+knowledge: 나쁘지 않다는 말의 의미는 좋다고도 이해할 수 있다.
+answer: entailment
+
+premise: 2편은 1편의 리즈 위더스푼 매력을 볼 수 없음
+hypothesis: 2편에서는 리즈 위더스푼의 매력을 볼 수 있음.
+knowledge: \"있다\"와 \"없다\"는 각각 의미가 대립되는 반의어이다.
+answer: contradiction
+{shot}
+premise: 설정을 다 풀지 못 한 감독은 반성하시길.
+hypothesis: 설정을 다 푼 감독은 반성하시길.
+knowledge: 전제 문장의 감독은 설정을 다 풀지 못했다.
+answer: contradiction
+
+premise: 세면도구랑 칫솔은 따로 챙기셔야 해요.
+hypothesis: 세면도구랑 칫솔만 챙기면 돼요.
+knowledge: 세면도구와 칫솔 이외의 도구에 대한 안내는 없다.
+answer: neutral
+
+premise: 세탁기도 무료로 사용 할 수 있었고요.
+hypothesis: 세탁기를 사용할 수 있었어요.
+knowledge: 전제와 가설의 내용이 일치한다.
+answer: entailment

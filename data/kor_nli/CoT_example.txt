@@ -1,0 +1,191 @@
+premise: 이후에도 인교진 씨는 울컥할 때마다 무대 뒤편을 바라보며 눈물을 삼켰다.
+hypothesis: 인교진 씨는 울컥하지 않았다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 인교진 씨는 울컥한다는 정보가 포함된다.
+2. 반면, hypothesis는 인교진 씨가 울컥하지 않았다고 진술한다.
+3. premise와 hypothesis의 진술이 엇갈린다.
+따라서 정답은 contradiction이다.
+
+premise: 인구 3만이 넘지 않는 조그마한 농촌 도시에서 스마트시티를 적극 추진한다고 나섰다.
+hypothesis: 인구 3만이 넘지 않는 농촌 도시가 적극적으로 스마트시티 구축에 앞장섰다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 인구 3만이 넘지 않는 농촌에서 스마트시티를 적극 추진한다고 하였다.
+2. hypothesis도 마찬가지로 인구 3만이 넘지 않는 농촌에서 스마트시티 구축을 적극적으로 앞장섰다고 하였다.
+3. premise와 hypothesis의 진술이 일치한다.
+따라서 정답은 entailment이다.
+
+premise: 인근 지역아동센터와 노인복지관, 장애인복지관 등을 방문해 치킨을 제공해 왔다.
+hypothesis: 치킨을 제공한지 벌써 3년째이다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 인근 지역아동센터, 노인복지관, 장애인복지관 등에 치킨을 제공한다고 하였다.
+2. hypothesis의 치킨을 제공한지 벌써 3년째라고 하였다.
+3. hypothesis의 내용은 premise의 내용으로 알 수 없다.
+따라서 정답은 neutral이다.
+{shot}
+premise: 인근에 제법 맛이좋은 식당도 많이 있습니다.
+hypothesis: 인근 식당에서 맛있는 식사하기는 무척 어렵습니다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 인근에 맛이 좋은 식당이 많다고 하였다.
+2. hypothesis는 인근에서 맛있는 식사를 하기 어렵다고 하였다.
+3. premise와 hypothesis의 진술이 엇갈린다.
+따라서 정답은 contradiction이다.
+
+premise: 인구 3만이 넘지 않는 조그마한 농촌 도시에서 스마트시티를 적극 추진한다고 나섰다.
+hypothesis: 인구 3만이 넘지 않는 농촌 도시가 적극적으로 스마트시티 구축에 앞장섰다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 인구 3만이 넘지 않는 농촌에서 스마트시티를 적극 추진한다고 하였다.
+2. hypothesis도 마찬가지로 인구 3만이 넘지 않는 농촌에서 스마트시티 구축을 적극적으로 앞장섰다고 하였다.
+3. premise와 hypothesis의 진술이 일치한다.
+따라서 정답은 entailment이다.
+
+premise: 인근 지역아동센터와 노인복지관, 장애인복지관 등을 방문해 치킨을 제공해 왔다.
+hypothesis: 치킨을 제공한지 벌써 3년째이다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 인근 지역아동센터, 노인복지관, 장애인복지관 등에 치킨을 제공한다고 하였다.
+2. hypothesis의 치킨을 제공한지 벌써 3년째라고 하였다.
+3. hypothesis의 내용은 premise의 내용으로 알 수 없다.
+따라서 정답은 neutral이다.
+{shot}
+premise: 저희는 항상 대중교통을 이용하였습니다.
+hypothesis: 대중교통을 이용하지 않았습니다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 대중교통을 항상 이용한다고 하였다.
+2. 하지만, hypothesis에서는 대중교통을 이용하지 않는다고 진술한다.
+3. hypothesis의 내용이 premise와 충돌한다.
+따라서 정답은 contradiction이다.
+
+premise: 저희가 묵은 이 숙소의 최대 장점은 위치였어요.
+hypothesis: 관광지와 가까운 위치였어요.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 숙소의 최대 장점이 위치라고 하였다.
+2. hypothesis에서는 관광지와 가깝다고 하였다.
+3. hypothesis의 내용은 premise의 진술로 알 수 없다.
+따라서 정답은 neutral이다.
+
+premise: 저질 스토리 라인은 도저히 참을 수가 없어.
+hypothesis: 저질 스토리라인이 제일 화가 나.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 저질 스토리 라인은 참을 수 없다고 하였다.
+2. hypothesis에서는 저질 스토리 라인이 제일 화가 난다고 진술한다.
+3. hypothesis의 내용이 premise와 일치한다.
+따라서 정답은 entailment이다.
+{shot}
+premise: 저제작비로도 얼마든지 훌륭한 영화가 나올수 있다는 걸 잘 보여준 영화.
+hypothesis: 역대 가장 낮은 비용으로 제작된 영화. 
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 적은 제작비로도 훌륭한 영화가 나올 수 있음을 보여준 영화임을 말한다.
+2. hypothesis에서는 영화 제작 비용에 대해 진술한다.
+3. hypothesis의 내용은 premise로 알 수 없다.
+따라서 정답은 neutral이다.
+
+premise: 저의 여행에서 매우 만족도가 높았습니다.
+hypothesis: 여행에서 제 만족도는 낮았습니다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 여행의 만족도가 높았음을 언급한다.
+2. hypothesis에서는 여행의 만족도가 낮았음을 언급한다.
+3. hypothesis는 premise와 반대의 진술을 하고 있다.
+따라서 정답은 contradiction이다.
+
+premise: 저의 여행에서 매우 만족도가 높았습니다.
+hypothesis: 저는 여행을 한 적이 있습니다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 여행의 만족도가 높았다고 말한다.
+2. hypothesis에서는 여행을 한 적이 있다고 진술한다.
+3. hypothesis의 내용은 premise의 내용을 미루어 보아 진실이라고 할 수 있다.
+따라서 정답은 entailment이다.
+{shot}
+premise: 저렴한 가격에 나쁘지 않은 위치가 장점입니다.
+hypothesis: 청결도는 단점입니다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 위치가 장점임을 말한다.
+2. hypothesis에서 청결도가 단점임을 지적한다.
+3. hypothesis의 내용은 premise로 알 수 없다.
+따라서 정답은 neutral이다.
+
+premise: 저도 사고를 참 많이치던 학생이었습니다.
+hypothesis: 저는 사고를 친 적이 없습니다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 사고를 많이치던 학생임을 밝힌다.
+2. hypothesis에서는 사고를 친 적이 없다고 말한다.
+3. hypothesis의 내용은 premise와 모순된다.
+따라서 정답은 contradiction이다.
+
+premise: 저는 이 숙소를 예약한 것에 대해 만족합니다.
+hypothesis: 저는 이 숙소를 예약한것에 불만없습니다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 숙소를 예약한 것에 만족한다고 말한다.
+2. hypothesis에서는 불만이 없다고 말한다.
+3. hypothesis의 내용은 premise와 일치한다.
+따라서 정답은 entailment이다.
+{shot}
+premise: 저는 결국 렌트카 문짝을 긁어먹었답니다.
+hypothesis: 렌트카 문짝을 결국 수리했습니다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 렌트카 문짝을 긁었다고 말한다.
+2. hypothesis에서는 그것을 수리했다고 말한다.
+3. hypothesis의 내용은 premise의 진술로는 알 수 없다.
+따라서 정답은 neutral이다.
+
+premise: 이어 체험전시실 전체와 라바파크, 사계절 썰매장 등을 센터장의 안내로 세세히 둘러보았다.
+hypothesis: 센터장이 안내해주었다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서는 센터장의 안내로 세세히 둘러보았음을 진술한다.
+2. hypothesis에서는 센터장이 안내해주었다고 말한다.
+3. hypothesis의 내용은 premise와 일치한다.
+따라서 정답은 entailment이다.
+
+premise: 이어 위촉장 수여와 학생기자단 운영계획, 저작권, 사진촬영 기법 등의 실무교육이 진행됐다.
+hypothesis: 위촉장 수여만 진행되었다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 위촉장 수여, 운영계획, 저작관, 사진활영 기법 등의 실무교육이 있었다 말한다.
+2. hypothesis에서는 오직 위촉장 수여만 진행되었음을 말한다.
+3. hypothesis의 내용은 premise와 모순된다.
+따라서 정답은 contradiction이다.
+{shot}
+premise: 누리 빌게 제일란의 최고의 감동 영화 터키의 이국적 정서.
+hypothesis: 터키의 이국적 정서를 보여주는 영화.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서는 터키의 이국적 정서를 보여주는 영화임을 언급한다.
+2. hypothesis에선 터키의 이국적 정서를 보여주는 영화라 말한다.
+3. hypothesis의 내용과 premise의 내용이 일치한다.
+따라서 정답은 entailment이다.
+
+premise: 높이 솟은 기둥 위에 보석들로 치장한 행복한 왕자 동상이 있고 사람들은 그 동상을 찬미한다.
+hypothesis: 행복한 왕자 동상의 치장에 사용된 보석은 다이아몬드, 루비, 사파이어이다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서는 보석들로 치장한 행복한 왕자 동상을 언급한다.
+2. hypothesis에서는 행복한 왕자 동상을 치장한 보석의 종류를 말한다.
+3. hypothesis의 내용은 premise의 내용으로 알 수 없다.
+따라서 정답은 neutral이다.
+
+premise: 손흥민은 순간적인 스피드와 돌파력으로 정상급 공격수가 됐다.
+hypothesis: 손흥민은 정상급 공격수가 되는 중이다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서는 손흥민이 정상급 공격수가 이미 됐음을 언급한다.
+2. hypothesis에서는 손흥민이 정상급 공격수가 되는 중임을 말한다.
+3. hypothesis의 내용은 premise와 일치하지 않는다.
+따라서 정답은 contradiction이다.
+{shot}
+premise: 솔직히 8점 정도가 적당하다고 봅니다.
+hypothesis: 배우 덕분에 8점이라고 봅니다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise는 8점이 적당한 점수임을 말한다.
+2. hypothesis는 8점의 점수가 배우 덕분임을 말한다.
+3. hypothesis의 내용은 premise로 알 수 없다.
+따라서 정답은 neutral이다.
+
+premise: 솔직히 8점 정도가 적당하다고 봅니다.
+hypothesis: 적당한 점수는 8점이라 봅니다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서는 8점이 적당한 점수임을 말한다.
+2. hypothesis에서는 적당한 점수가 8점임을 말한다.
+3. hypothesis의 내용과 premise의 내용이 일치한다.
+따라서 정답은 entailment이다.
+
+premise: 솔직히 말해서 겨울왕국 이상으로 재미있다.
+hypothesis: 솔직히 말해서 겨울왕국 보단 재미 없었다.
+순서대로 위 문장의 관계를 유추한다.
+1. premise에서 겨울왕국 이상으로 재밌음을 말한다.
+2. hypothesis에서는 겨울왕국보단 재미가 없었다고 말한다.
+3. hypothesis의 내용과 premise의 내용이 모순된다.
+따라서 정답은 contradiction이다.

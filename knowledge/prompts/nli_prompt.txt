@@ -1,0 +1,17 @@
+Generate knowledge of the new NLI data as shown in the following example.
+
+Premise: Number 916 is hoping that he is going to win the race.
+Hypothesis: A person is is playing baseball.
+Knowledge: In general, the word race is not used in baseball.
+
+Premise: Number 13 kicks a soccer ball towards the goal during children's soccer game.	
+Hypothesis: A player passing the ball in a soccer game.
+Knowledge: In a soccer game, a pass is to give the ball to a player on the same team, not to kick the ball toward the goalpost.
+
+Premise: An indian man walks past a temple on his way to pray.
+Hypothesis: A man is heading to his house of worship.
+Knowledge: A temple is a type of house of worship and is also used in the same sense.
+
+Premise: {premise}
+Hypothesis: {hypothesis}
+Knowledge: 

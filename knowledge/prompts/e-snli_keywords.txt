@@ -1,0 +1,19 @@
+Generate a Keywords for the sentence pair as shown in the example
+
+premise: A man in a blue shirt standing in front of a garage-like structure painted with geometric designs.
+hypothesis: A man is wearing a blue shirt
+premise keywords: a man, blue shirt, geometric designs
+hypothesis keywords: a man, blue shirt
+
+premise: Under a blue sky with white clouds, a child reaches up to touch the propeller of a plane standing parked on a field of grass.
+hypothesis: A child is reaching to touch the propeller of a plane.
+premise keywords: blue sky, white clouds, child, propeller
+hypothesis keywords: child, propeller
+
+premise: Four speed skaters representing different countries are racing across ice in front of camera people.
+hypothesis: Four skaters race each other.
+premise keywords: Four, skaters, racing, camera people
+hypothesis keywords: Four, skaters, race
+
+premise: {premise}
+hypothesis: {hypothesis}

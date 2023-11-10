@@ -1,0 +1,17 @@
+다음의 예시와 같이 새로운 NLI 데이터에 대한 Explanation을 생성해줘.
+
+Premise: 머무는 6일 동안 불편함 없이 잘 지냈습니다.
+Hypothesis: 6일 동안 편히 머물렀습니다.
+Explanation: Premise와 Hypothesis의 진술이 일치하므로 두 문장의 관계는 neutral, contradiction이 될 수 없다.
+
+Premise: 베트남 출신 아버지와 러시아 출신 어머니 사이에 태어나 혼혈이다.
+Hypothesis: 어머니 친정인 러시아에서 살고 있다.
+Explanation: Hypothesis에서 언급한 어머니 친정은 Premise에서 알 수 없으므로 두 문장의 관계는 entailment, contradiction이 될 수 없다.
+
+Premise: 뷔가 구매한 도미너스의 작품은 가로 24인치 세로 36인치 캔버스에 아크릴로 그린 작품이다.
+Hypothesis: 뷔는 정사각형 캔버스에 아크릴로 그린 작품을 샀다.
+Explanation: Hypothesis에서 언급한 정사각형은 가로와 세로의 길이가 일치해야하므로 두 문장의 관계는 entailment, neutral이 될 수 없다.
+
+Premise: {premise}
+Hypothesis: {hypothesis}
+Explanation: 

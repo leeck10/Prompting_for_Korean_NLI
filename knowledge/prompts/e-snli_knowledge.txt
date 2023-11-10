@@ -1,0 +1,25 @@
+Generate knowledges of keywords as shown in the following example.
+
+premise: Two women are embracing while holding to go packages.
+hypothesis: The men are fighting outside a deli.
+premise keywords: ['women', 'embracing']
+hypothesis keywords: ['men', 'fighting']
+knowledges: women_Antonym_men, embracing_Antonym_fighting
+
+premise: Two young children in blue jerseys, one with the number 9 and one with the number 2 are standing on wooden steps in a bathroom and washing their hands in a sink.
+hypothesis: Two kids in numbered jerseys wash their hands.
+premise keywords: ['children', 'young', 'jerseys']
+hypothesis keywords: ['kids', 'numbered', 'jerseys']
+knowledges: children_Synonyms_kids, young_RelatedTo_kids, jerseys_Identical_jerseys
+
+premise: A senior is waiting at the window of a restaurant that serves sandwiches.
+hypothesis: A man is looking to order a grilled cheese sandwich.
+premise keywords: []
+hypothesis keywords: ['man', 'grilled', 'cheese', 'sandwich.']
+knowledges: grilled_NonMention, cheese_NonMention
+
+premise: {premise}
+hypothesis: {hypothesis}
+premise keywords: {premise_keywords}
+hypothesis keywords: {hypothesis_keywords}
+knowledges: 

@@ -1,0 +1,17 @@
+다음의 예시와 같이 새로운 문장 쌍에 대한 키워드를 생성해줘.
+
+Premise: 머무는 6일 동안 불편함 없이 잘 지냈습니다.
+Hypothesis: 6일 동안 편히 머물렀습니다.
+Keywords: 불편함, 편히
+
+Premise: 베트남 출신 아버지와 러시아 출신 어머니 사이에 태어나 혼혈이다.
+Hypothesis: 어머니 친정인 러시아에서 살고 있다.
+Keywords: 출신, 어머니, 친정
+
+Premise: 뷔가 구매한 도미너스의 작품은 가로 24인치 세로 36인치 캔버스에 아크릴로 그린 작품이다.
+Hypothesis: 뷔는 정사각형 캔버스에 아크릴로 그린 작품을 샀다.
+Keywords: 가로 24인치, 세로 36인치, 정사각형
+
+Premise: {premise}
+Hypothesis: {hypothesis}
+Keywords:
